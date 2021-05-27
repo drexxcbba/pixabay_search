@@ -1,10 +1,12 @@
 import React from 'react';
+import Formulario from './components/formulario';
 
 function App() {
   return (
     <div className = "container">
       <div className = "jumbotron">
         <p className = "lead text-center">Buscador de imágenes</p>
+        <Formulario />
       </div>
     </div>
   );
